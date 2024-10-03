@@ -20,5 +20,5 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /webinventory
+            cd webinventory
             git pull origin main
